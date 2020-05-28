@@ -6,7 +6,7 @@ const routeBase = '/abbuabout';
 //about page
 router.get(routeBase,function (req,res)
 {
-    res.render('./about/about');
+    res.render('./about/about.ejs');
 });
 /////////////////////////////////////////
 //about UniversityAdministration page
@@ -36,30 +36,42 @@ router.get(routeBase + '/general_information',function (req,res)
 //mission page
 router.get(routeBase + '/mission',function (req,res)
 {
-    res.render('./aboutmission');
+    res.render('./about/mission');
 });
 /////////////////////////////////
 //goal page
 router.get(routeBase + '/goal',function (req,res)
 {
-    res.render('./aboutgoal');
+    res.render('./about/goal');
 });
 /////////////////////////////////
 //university_values page
 router.get(routeBase + '/university_values',function (req,res)
 {
-    res.render('./aboutuniversity_values');
+    res.render('./about/university_values');
 });
 /////////////////////////////////
 //departments page
 router.get(routeBase + '/departments',function (req,res)
 {
-    res.render('./aboutdepartments');
+    res.render('./about/departments');
 });
 /////////////////////////////////
 //gap page
 router.get(routeBase + '/gap',function (req,res)
 {
-    res.render('gap');
+    res.render('./about/gap');
+});
+/////////////////////////////////
+//garelly page
+router.get(routeBase + '/garelly',function (req,res)
+{
+    res.render('./about/garelly');
+});
+/////////////////////////////////
+//mafraqcity page
+router.get(routeBase + '/mafraqcity',function (req,res)
+{
+    res.render('./about/mafraqcity');
 });
 module.exports = router;

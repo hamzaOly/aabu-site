@@ -16,6 +16,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "maramabdulla <maram.alnaimi95@gmail.com>",
+  "license": "ISC",
+  "repository": "https://github.com/hamzaOly/aabu-site"
 }
