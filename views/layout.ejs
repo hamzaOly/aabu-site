@@ -42,7 +42,7 @@
     </header>
     <div class="navbar sticky-top dark scrolling-navbar align-self-start stick">
         <!-- SideNav slide-out button -->
-        <a class="navbar-brand" href="http://localhost:4000/home">
+        <a class="navbar-brand" href="http://localhost:3000/home">
             <img src="../images/enlog.png" height="100" class="d-inline-block align-top ico" alt="AL-Albayt" id="logo">
         </a>
         <span id="dpl-navbar-buttons">
@@ -52,36 +52,61 @@
                 <!-- Login / register -->
 
                 <a alt="Dynamic: Get news (jQuery)" id="navbar-jquery-dynamic-newsletter" class="btn-sm"
-                    href="http://localhost:4000/home" role="button">Home<i class="fas fa-home ml-2"></i>
+                    href="http://localhost:3000/home" role="button">Home<i class="fas fa-home ml-2"></i>
                 </a>
-                <a alt="Dynamic: Get news (jQuery)" id="navbar-jquery-dynamic-newsletter" class="btn-sm" href="#"
-                    role="button">About AABU<i class="fas fa-angle-down ml-2"></i>
-                </a>
+                <div class="dropdown">
+                    <a alt="Dynamic: Get news (jQuery)" id="navbar-jquery-dynamic-newsletter" class="btn-sm" href="#"
+                        role="button">About AABU<i class="fas fa-angle-down ml-2"></i>
+                    </a>
+                    <div class="dropdown-content">
+                        <a href="http://localhost:3000/abbuabout/UniversityAdministration">Prince Hussein
+                            bin Abdullah
+                            College for Information Technology</a>
+                        <a href="<%='http://localhost:3000/abbuabout/BoardOfTrustees'%>">Faculty of Economics and
+                            Administrative Sciences</a>
+                        <a href="#">Princess Salma Faculty of Nursing</a>
+                        <a href="<%='http://localhost:3000/abbuabout/DeansCouncil'%>">Faculty of Sharia</a>
+                        <a href="<%='http://localhost:3000/abbuabout/general_information'%>">Faculty of Law</a>
+                        <a href="#">Faculty of Arts and Humanities</a>
+                        <a href="#">Faculty of Engineering</a>
+                        <a href="<%='http://localhost:3000/abbuabout/mission'%>">Faculty of Science</a>
+                        <a href="#">Faculty of Educational Sciences</a>
+                        <a href="<%='http://localhost:3000/abbuabout/goal'%>">Faculty of Aviation</a>
+                        <a href="<%='http://localhost:3000/abbuabout/university_values'%>">Bayt Al-Hekmah</a>
+                        <a href="#">Institute of Earth and Environmental Sciences</a>
+                        <a href="<%='http://localhost:3000/abbuabout/aboutdepartment'%>">The
+                            Institute of Astronomy & Space Sciences</a>
+                        <a href="<%='http://localhost:3000/abbuabout/gap'%>">Higher Institute
+                            of Islamic Studies</a>
+
+                    </div>
+                </div>
+
                 <div class="dropdown">
                     <a alt="Dynamic: Get news (jQuery)" id="navbar-jquery-dynamic-newsletter" class="btn-sm" href="#"
                         role="button">Academics<i class="fas fa-angle-down ml-2"></i>
                     </a>
                     <div class="dropdown-content">
-                        <a href="http://localhost:4000/academic/IT">Prince Hussein
+                        <a href="http://localhost:3000/academic/IT">Prince Hussein
                             bin Abdullah
                             College for Information Technology</a>
-                        <a href="<%='http://localhost:4000/academic/FacultyOfEconomics'%>">Faculty of Economics and
+                        <a href="<%='http://localhost:3000/academic/FacultyOfEconomics'%>">Faculty of Economics and
                             Administrative Sciences</a>
                         <a href="#">Princess Salma Faculty of Nursing</a>
-                        <a href="<%='http://localhost:4000/academic/facultyOfSharia'%>">Faculty of Sharia</a>
-                        <a href="<%='http://localhost:4000/academic/FacultyofLaw'%>">Faculty of Law</a>
+                        <a href="<%='http://localhost:3000/academic/facultyOfSharia'%>">Faculty of Sharia</a>
+                        <a href="<%='http://localhost:3000/academic/FacultyofLaw'%>">Faculty of Law</a>
                         <a href="#">Faculty of Arts and Humanities</a>
                         <a href="#">Faculty of Engineering</a>
-                        <a href="<%='http://localhost:4000/academic/FacultyofScience'%>">Faculty of Science</a>
+                        <a href="<%='http://localhost:3000/academic/FacultyofScience'%>">Faculty of Science</a>
                         <a href="#">Faculty of Educational Sciences</a>
-                        <a href="<%='http://localhost:4000/academic/FacultyOfAviation'%>">Faculty of Aviation</a>
-                        <a href="<%='http://localhost:4000/academic/BaytAl-Hekmah'%>">Bayt Al-Hekmah</a>
+                        <a href="<%='http://localhost:3000/academic/FacultyOfAviation'%>">Faculty of Aviation</a>
+                        <a href="<%='http://localhost:3000/academic/BaytAl-Hekmah'%>">Bayt Al-Hekmah</a>
                         <a href="#">Institute of Earth and Environmental Sciences</a>
-                        <a href="<%='http://localhost:4000/academic/TheInstituteOfAstronomyAndSpaceSciences'%>">The
+                        <a href="<%='http://localhost:3000/academic/TheInstituteOfAstronomyAndSpaceSciences'%>">The
                             Institute of Astronomy & Space Sciences</a>
-                        <a href="<%='http://localhost:4000/academic/HigherInstituteOfIslamicStudies'%>">Higher Institute
+                        <a href="<%='http://localhost:3000/academic/HigherInstituteOfIslamicStudies'%>">Higher Institute
                             of Islamic Studies</a>
-                        <a href="<%='http://localhost:4000/academic/DeanShipOfAcademicResearch'%>">DeanShip of Academic
+                        <a href="<%='http://localhost:3000/academic/DeanShipOfAcademicResearch'%>">DeanShip of Academic
                             Research</a>
                         <a href="#">DeanShip of Graduate Studies</a>
                         <a href="#">DeanShip of Student Affairs</a>

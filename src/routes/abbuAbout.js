@@ -12,49 +12,49 @@ router.get(routeBase,function (req,res)
 //about UniversityAdministration page
 router.get(routeBase + '/UniversityAdministration',function (req,res)
 {
-    res.render('University_Administration');
+    res.render('./about/University_Administration');
 });
 ////////////////////////////
 //BoardOfTrustees page
 router.get(routeBase + '/BoardOfTrustees',function (req,res)
 {
-    res.render('BoardOfTrustees');
+    res.render('./about/BoardOfTrustees');
 });
 /////////////////////////////////
 //DeansCouncil page
 router.get(routeBase + '/DeansCouncil',function (req,res)
 {
-    res.render('DeansCouncil');
+    res.render('./about/DeansCouncil');
 });
 ////////////////////////////////////
 //general_information page
 router.get(routeBase + '/general_information',function (req,res)
 {
-    res.render('general_information');
+    res.render('./about/general_information');
 });
 ////////////////////////////////////
 //mission page
 router.get(routeBase + '/mission',function (req,res)
 {
-    res.render('mission');
+    res.render('./aboutmission');
 });
 /////////////////////////////////
 //goal page
 router.get(routeBase + '/goal',function (req,res)
 {
-    res.render('goal');
+    res.render('./aboutgoal');
 });
 /////////////////////////////////
 //university_values page
 router.get(routeBase + '/university_values',function (req,res)
 {
-    res.render('university_values');
+    res.render('./aboutuniversity_values');
 });
 /////////////////////////////////
 //departments page
 router.get(routeBase + '/departments',function (req,res)
 {
-    res.render('departments');
+    res.render('./aboutdepartments');
 });
 /////////////////////////////////
 //gap page
