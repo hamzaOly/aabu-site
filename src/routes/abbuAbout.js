@@ -16,7 +16,7 @@ router.get(routeBase + '/UniversityAdministration',function (req,res)
 });
 ////////////////////////////
 //BoardOfTrustees page
-router.get(routeBase + '/BoardOfTrustees',function (req,res)
+router.get(routeBase + '/UniversityAdministration',function (req,res)
 {
     res.render('./about/BoardOfTrustees');
 });

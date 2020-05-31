@@ -15,7 +15,7 @@ router.get(routeBase + '/FacultyOfEconomics',(req,res) =>
 
 router.get(routeBase + '/PrincessSalmaFacultyOfNursing',(req,res) =>
 {
-    res.render('PrincessSalmaFacultyOfNursing');
+    res.render('./Nursing/PrincessSalmaFacultyOfNursing');
 });
 router.get(routeBase + '/FacultyOfEngineerings',(req,res) =>
 {
